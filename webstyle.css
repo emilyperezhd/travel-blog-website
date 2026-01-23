@@ -333,3 +333,41 @@ footer {
     margin-top: 40px;
     font-size: 16px;
 }
+
+.description-box {
+    background-color: #63b0d7; /* light blue */
+    border-radius: 18px;
+    padding: 25px 30px;
+    margin-top: 25px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+}
+
+.description-box p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.description-box p:last-child {
+    margin-bottom: 0;
+}
+
+/* === Textbox for destination descriptions === */
+.country-section .description-box{
+  display: block;
+  width: 100%;
+  background: #bbe8ff !important;   /* light blue */
+  border-radius: 18px !important;
+  padding: 24px 28px !important;
+  margin: 22px auto 0 auto !important;
+  box-sizing: border-box !important;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08) !important;
+}
+
+.country-section .description-box p{
+  margin: 0 0 14px 0 !important;
+  line-height: 1.6 !important;
+}
+
+.country-section .description-box p:last-child{
+  margin-bottom: 0 !important;
+}
